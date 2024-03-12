@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "removeComments": true,
+        "allowJs": true, // pour autoriser l'utilisation de fichiers JavaScript
+        "resolveJsonModule": true, // pour utiliser des fichiers JSON avec TypeScript
+        "moduleResolution": "node", // pour imiter la résolution de modules de Node.js
+        "noImplicitAny": true, // pour activer des vérifications de type plus strictes
+        "sourceMap": true, // pour produire des fichiers .map pour le débogage
+        "experimentalDecorators": true, // pour activer les décorateurs
+        "emitDecoratorMetadata": true // pour activer les décorateurs
+    },
+    "include": ["src/**/*.ts", "src/**/*.js"],
+    "exclude": ["node_modules", "src/**/*.test.ts"]
+}
