@@ -18,7 +18,11 @@
 
 ### Introduction
 
-PuntoDB est un jeu de Punto implémenté avec une interface de terminal, permettant la liaison avec quatres bases de données différentes : MySQL, SQLite, MongoDB et Neo4j. Le programme offre une expérience interactive en ligne de commande, avec des options pour jouer, gérer les bases de données et générer des parties.
+PuntoDB est un jeu de Punto implémenté avec une interface de terminal, permettant la liaison avec quatres bases de données différentes : MySQL, SQLite, MongoDB et Neo4j. Le programme offre une expérience interactive en ligne de commande, avec des options pour jouer, gérer les bases de données et générer des parties. L'entièreté du programme en anglais.
+
+### Démonstration
+
+Le fichier [demo](./demo.md) contient une démonstration du jeu avec des captures d'écran ainsi que des vérifications de la sauvegarde des parties dans les bases de données.
 
 ### Prérequis
 
@@ -35,7 +39,7 @@ pnpm install
 
 ### Construction du Projet
 
-Pour construire le projet (si nécessaire, une version construite est déjà incluse dans le dossier `dist`) :
+Pour construire le projet dans le dossier `dist` :
 
 ```sh
 pnpm run build
@@ -59,21 +63,23 @@ pnpm run start
 
 ### Nettoyage des Fichiers de Build
 
-Pour nettoyer les fichiers de build (si un nouveau build a été effectué) :
+Pour nettoyer les fichiers de build :
 
 ```sh
 pnpm run clean
 ```
 
--   Cette commande utilise la commande `del` de Windows pour supprimer `tsconfig.tsbuildinfo`.
+-   Attention, cette commande utilise la commande `del` de Windows pour supprimer `tsconfig.tsbuildinfo`. Sous Linux, il faudra adapter la commande pour supprimer ce fichier.
 
 ### Documentation
 
-Pour générer la documentation du projet (si nécessaire, une version générée est déjà incluse dans le dossier `docs`) :
+Pour générer la documentation technique du projet dans le dossier `docs` :
 
 ```sh
 pnpm run docs
 ```
+
+La documentation générée est accessible via le fichier [index.html](./docs/index.html) dans le dossier `docs`.
 
 ### Utilisation du Programme
 

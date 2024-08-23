@@ -12,22 +12,23 @@
     },
     "author": "Naexy",
     "license": "",
-    "packageManager": "pnpm@8.15.4",
+    "packageManager": "pnpm@9.1.2+sha256.19c17528f9ca20bd442e4ca42f00f1b9808a9cb419383cd04ba32ef19322aba7",
     "devDependencies": {
-        "@types/node": "^20.8.10",
-        "@typescript-eslint/eslint-plugin": "^6.9.1",
-        "@typescript-eslint/parser": "^6.9.1",
-        "eslint": "^8.53.0",
+        "@types/node": "^20.12.12",
+        "@typescript-eslint/eslint-plugin": "^6.21.0",
+        "@typescript-eslint/parser": "^6.21.0",
+        "eslint": "^8.57.0",
         "ts-node": "^10.9.2",
-        "typedoc": "^0.25.12",
-        "typescript": "^5.4.2"
+        "typedoc": "^0.25.13",
+        "typescript": "^5.4.5"
     },
     "dependencies": {
-        "mongodb": "^5.9.1",
-        "mysql2": "^3.6.3",
-        "neogma": "^1.12.3",
-        "reflect-metadata": "^0.1.13",
-        "sqlite3": "^5.1.6",
-        "typeorm": "^0.3.17"
+        "mongodb": "^5.9.2",
+        "mysql2": "^3.9.7",
+        "neogma": "^1.14.0",
+        "reflect-metadata": "^0.1.14",
+        "sqlite3": "^5.1.7",
+        "surrealdb.js": "1.0.0-beta.8",
+        "typeorm": "^0.3.20"
     }
 }
